@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>똑같은아이 (DOKKAT) - 우리 아이를 위한 따뜻한 연결</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css" />
+</head>
+<body>
+
+    <header>
+        <nav class="container">
+            <a href="#" class="logo">DOKKAT<span>똑같은아이</span></a>
+            
+            <ul class="nav-menu">
+            <li><a href="#features">서비스 안내</a></li>
+                <li><a href="#signup">회원가입</a></li>
+                <li><a href="#plan">이용 플랜</a></li>
+                <li><a href="#community">커뮤니티</a></li>
+                <li><a href="#support">고객지원</a></li>
+                
+            </ul>
+
+            <div class="header-right">
+                <button class="btn-primary-sm pc-only" onclick="location.href='#signup'">시작하기</button>
+                <div class="menu-toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="mobile-nav" id="mobile-nav">
+        <ul class="mobile-nav-menu">
+            <li><a href="#features">서비스 소개</a></li>
+            <li><a href="#safety">교사보호</a></li>
+            <li><a href="#community">커뮤니티</a></li>
+            <li><button class="btn-primary" onclick="location.href='#signup'">시작하기</button></li>
+        </ul>
+    </div>
+
+    <section class="hero">
+        <div class="container hero-content">
+            <span class="badge">특별하지만, 모두 똑같은 아이입니다.</span>
+            <h1>세상의 속도보다<br>우리 아이의 발걸음에 귀를 기울이는 곳</h1>
+            <p>부모에겐 든든한 동료를, 선생님에겐 안전한 소통을 선물합니다.</p>
+            <div class="hero-btns">
+                <button class="btn-primary">지금 시작하기</button>
+                <button class="btn-secondary">서비스 철학 보기</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="empathy">
+        <div class="container">
+            <h2>이런 순간이 있으셨나요?</h2>
+            <div class="empathy-grid">
+                <div class="empathy-item">
+                    <p>"우리 아이를 온전히 이해해주는 단 한 사람만 있었으면..."</p>
+                </div>
+                <div class="empathy-item">
+                    <p>"늦은 시간 선생님께 연락드리기 죄송해서 망설여질 때"</p>
+                </div>
+                <div class="empathy-item">
+                    <p>"아이의 발달 정보를 어디서부터 찾아야 할지 막막할 때"</p>
+                </div>
+            </div>
+            <p class="empathy-footer">DOKKAT은 그 마음에서 시작되었습니다.</p>
+        </div>
+    </section>
+
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-title">
+                <h2>아이와 부모, 교사를 위한 핵심 서비스</h2>
+            </div>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <div class="icon">💬</div>
+                    <h3>부모 공감 커뮤니티</h3>
+                    <p>별빛엄마, 함께걷는맘... 익명 닉네임으로 나누는 속 깊은 육아 경험과 정보 공유.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon">🔒</div>
+                    <h3>안전 소통 시스템</h3>
+                    <p>개인 번호 노출 없이, 업무 시간(08:00~17:00) 내외를 구분하는 스마트한 메시징.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon">📚</div>
+                    <h3>맞춤형 양육 가이드</h3>
+                    <p>유치부부터 중고등부까지, 발달 단계에 필요한 필수 교육 정보를 한눈에.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="safety" class="safety-info">
+        <div class="container grid-2">
+            <div class="safety-text">
+                <h2>교사의 일상을 존중합니다</h2>
+                <ul class="check-list">
+                    <li><strong>메시지 예약 발송:</strong> 퇴근 후 도착한 메시지는 다음 날 아침에 전달됩니다.</li>
+                    <li><strong>안심 통화 시스템:</strong> 개인 휴대전화 번호 대신 가상 번호로 연결됩니다.</li>
+                    <li><strong>자동 매칭:</strong> 학교 검색 한 번으로 담당 학부모와 안전하게 연결됩니다.</li>
+                </ul>
+            </div>
+            <div class="safety-image">
+                <div class="mockup-card">
+                    <p>🌙 지금은 선생님의 휴식 시간입니다.<br>작성하신 메시지는 <strong>내일 오전 08:00</strong>에 전달됩니다.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="signup" class="signup-cta">
+        <div class="container">
+            <h2>똑같은아이(DOKKAT)와 함께 하세요</h2>
+            <p>익명 닉네임으로 편안하게 시작하는 우리들의 이야기</p>
+            <div class="social-login">
+                <button class="login-btn kakao">카카오로 시작</button>
+                <button class="login-btn naver">네이버로 시작</button>
+                <button class="login-btn google">구글로 시작</button>
+                <button class="login-btn apple">Apple로 시작</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© 2026 DOKKAT. All rights reserved. | 아이들은 모두 똑같이 소중합니다.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
